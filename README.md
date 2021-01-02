@@ -25,9 +25,9 @@ EFI for HP X360 Pavilion 14-dw0004nl Ice Lake with OpenCore bootloader
 - [x] Intel UHD630 iGPU eDP with Backlight Output
 - [ ] Intel UHD630 iGPU HDMI Output (Not supported at the moment)
 - [ ] Intel UHD630 iGPU Type-C to HDMI Output (Not supported at the moment)
-- [] ALC287 Internal Speakers
-- [] ALC287 Internal microphone
-- [] ALC287 Combojack headphones
+- [ ] ALC287 Internal Speakers
+- [ ] ALC287 Internal microphone
+- [ ] ALC287 Combojack headphones
 - [ ] ALC287 Combojack microphone
 - [ ] ALC287 HDMI Audio Output (Not supported at the moment)
 - [ ] ALC287 TYPE-C to HDMI Audio Output (Not supported at the moment)
@@ -46,11 +46,12 @@ EFI for HP X360 Pavilion 14-dw0004nl Ice Lake with OpenCore bootloader
 - [x] NVRAM (Native)
 
 
-## Peripherals
+## Peripherals & Benchmarks
 
 ![infohack](./Screenshot/periferiche.png)
 ![infodp2](./Screenshot/pci-list.png)
-![infopci](./Screenshot/pci-dev.png)
+![AUDIO](./Screenshot/AUDIO-ID11notwork.png)
+
 
 ### Special Config:
 
@@ -58,7 +59,7 @@ EFI for HP X360 Pavilion 14-dw0004nl Ice Lake with OpenCore bootloader
 - SSDT-Hack Essential patch
 - Applied cosmetics PCI Dev
 
-See [ioreg](./ioreg%20MacBook%20Pro%2016%2C2.ioreg) for more clarification
+See [ioreg](./IOREG%20MacbookPro16,2.ioreg) for more clarification
 
 ## Credits
 
