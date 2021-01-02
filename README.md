@@ -61,6 +61,37 @@ EFI for HP X360 Pavilion 14-dw0004nl Ice Lake with OpenCore bootloader
 
 See [ioreg](./IOREG%20MacbookPro16,2.ioreg) for more clarification
 
+## Bios settings for Bios Version F.21
+### Enable :
+* Fastboot : Enable
+
+
+### Disable : 
+* Secure Boot
+* TPM2.0 Security On
+* Intel SGX
+* VT for Direct I/O
+* CFG-lock and DVMT: DO AT YOUR OWN RISK!!! It may brick your laptop.
+
+ ![CFG-Lock](./Screenshot/CFG-Lock.png)
+ ![DVMT](./Screenshot/DVMT.png)
+ 
+Create a usb in FAT with MBR map and put [ru.efi](./TOOLS%20EFI%20MOD/RU.efi) in it 
+then go to the bios, and create an entry with the path of the usb and setting the ru.efi file and the name of 
+your choice startup and then send and finally click apply.
+
+Restart and press f12 among the entries you will have the last created, click any key, then click alt + ì a menu will appear and
+scroll to CpuSetup and click enter, in the new screen go with the arrows on the value 0043 and change it from 01 to 00 and click 
+enter and then ctrl + w to save and then alt + q to exit. proceed to check if your CFG LOCK is unlocked.
+
+![CpuSetup](./TOOLS%20EFI%20MOD/CpuSetup.bmp)
+
+For the 2 DVMT values you have to go to the SaSetup menu and enter and look for 00A4 and set it from 02 to 05 and then move 
+next to 00A5 and set from 02 to 03 then save with ctrl + w and to exit alt + q and you will have the suitable DVMT values to the igpu ice lake. 
+
+![SaSetup](./TOOLS%20EFI%20MOD/SaSetup.bmp)
+
+
 ## Credits
 
 - [Apple](https://apple.com) for macOS.
