@@ -1,4 +1,4 @@
-# hp360
+# HP X360 Pavilion 14-dw0004nl
 
 EFI for HP X360 Pavilion 14-dw0004nl Ice Lake with OpenCore bootloader
 
