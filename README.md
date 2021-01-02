@@ -25,9 +25,9 @@ EFI for HP X360 Pavilion 14-dw0004nl Ice Lake with OpenCore bootloader
 - [x] Intel UHD630 iGPU eDP with Backlight Output
 - [ ] Intel UHD630 iGPU HDMI Output (Not supported at the moment)
 - [ ] Intel UHD630 iGPU Type-C to HDMI Output (Not supported at the moment)
-- [x] ALC287 Internal Speakers
-- [x] ALC287 Internal microphone
-- [x] ALC287 Combojack headphones
+- [] ALC287 Internal Speakers
+- [] ALC287 Internal microphone
+- [] ALC287 Combojack headphones
 - [ ] ALC287 Combojack microphone
 - [ ] ALC287 HDMI Audio Output (Not supported at the moment)
 - [ ] ALC287 TYPE-C to HDMI Audio Output (Not supported at the moment)
