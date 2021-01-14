@@ -8,13 +8,13 @@ EFI for HP X360 Pavilion 14-dw0004nl Ice Lake with OpenCore bootloader
 
 | Component        | Brank                              |
 | ---------------- | ---------------------------------- |
-| CPU              | Intel i5 10635G1 (4C-8T 8MB ICL)   |
-| iGPU             | Intel® UHD630          			|
+| CPU              | Intel i5 1035G1 (4C-8T 8MB ICL)   |
+| iGPU             | Intel® UHD RVP         			|
 | Lan              | NO-LAN                       		|
 | Audio            | Realtek ALC287                     |
 | Ram              | 1x8GB DDR4 3200 Mhz SODIMM			|
 | Wifi + Bluetooth | RTL8822CE 802.11ac PciE		    |
-| NVMe             | HYNIX SK PM401 256GB  	   	 	    |
+| NVMe             | HYNIX SK PC401 256GB  	   	 	    |
 | SmBios           | MacBookPro 16,2                    |
 | BootLoader       | OpenCore  0.6.4                    |
 
